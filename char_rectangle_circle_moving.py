@@ -66,11 +66,16 @@ def run_left_diagonal():
 
 def run_right_diagonal():
     print('right_diagonal')
+    x, y = 400, 400
+    while x < 800:
+        draw_character(x,y)
+        x += 2
+        y -= 2
 
 def run_triangle():
     print('triangle')
     #run_bottom()
-    run_left_diagonal()
+    #run_left_diagonal()
     run_right_diagonal()
     pass
 
