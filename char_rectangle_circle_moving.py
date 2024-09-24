@@ -58,8 +58,8 @@ def run_circle():
 
 
 while True:
-    #run_circle()
+    run_circle()
     run_rectangle()
-    break
+    
 
 close_canvas()
