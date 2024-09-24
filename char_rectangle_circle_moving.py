@@ -58,13 +58,18 @@ def run_circle():
 
 def run_left_diagonal():
     print('left_diagonal')
+    x, y = 0, 0
+    while x < 400:
+        draw_character(x,y)
+        x += 2
+        y += 2
 
 def run_right_diagonal():
     print('right_diagonal')
 
 def run_triangle():
     print('triangle')
-    run_bottom()
+    #run_bottom()
     run_left_diagonal()
     run_right_diagonal()
     pass
