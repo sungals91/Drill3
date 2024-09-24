@@ -74,8 +74,8 @@ def run_right_diagonal():
 
 def run_triangle():
     print('triangle')
-    #run_bottom()
-    #run_left_diagonal()
+    run_bottom()
+    run_left_diagonal()
     run_right_diagonal()
     pass
 
