@@ -26,6 +26,8 @@ def run_right():
 
 def run_bottom():
     print('bottom')
+    for x in range(800,0,-10):
+        draw_character(x,0)
     pass
 
 def run_left():
