@@ -56,10 +56,23 @@ def run_circle():
         
         draw_character(x,y)
 
+def run_left_diagonal():
+    print('left_diagonal')
+
+def run_right_diagonal():
+    print('right_diagonal')
+
+def run_triangle():
+    print('triangle')
+    run_bottom()
+    run_left_diagonal()
+    run_right_diagonal()
+    pass
 
 while True:
-    run_circle()
-    run_rectangle()
-    
+    #run_circle()
+    #run_rectangle()
+    run_triangle()
+    break
 
 close_canvas()
