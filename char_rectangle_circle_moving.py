@@ -20,6 +20,8 @@ def run_top():
 
 def run_right():
     print('right')
+    for y in range(600,0,-10):
+        draw_character(800,y)
     pass
 
 def run_bottom():
@@ -52,7 +54,7 @@ def run_circle():
 
 
 while True:
-    run_circle()
+    #run_circle()
     run_rectangle()
     break
 
