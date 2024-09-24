@@ -32,6 +32,8 @@ def run_bottom():
 
 def run_left():
     print('left')
+    for y in range(0,600,10):
+        draw_character(0,y)
     pass
 
 def run_rectangle():
